@@ -3,11 +3,11 @@ import streamlit.components.v1 as components
 
 # Configuração da página
 st.set_page_config(page_title="Vídeo Aulas", page_icon=":clapper:", layout="wide")
-
+components.iframe("https://www.youtube.com/embed/liC49Dol6OY?si=2VsirqJsLrPdGi87&amp;controls=0" , width=700, height=400)
 # Mensagem inicial
 st.warning("Por favor, procure o instrumento que você está aprendendo.")
 
- components.iframe("https://www.youtube.com/embed/liC49Dol6OY?si=2VsirqJsLrPdGi87&amp;controls=0" , width=700, height=400)
+ 
 # Título da aplicação
 st.title("Vídeo Aulas")
 
