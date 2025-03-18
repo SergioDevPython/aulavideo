@@ -7,6 +7,7 @@ st.set_page_config(page_title="Vídeo Aulas", page_icon=":clapper:", layout="wid
 # Mensagem inicial
 st.warning("Por favor, procure o instrumento que você está aprendendo.")
 
+
 # Título da aplicação
 st.title("Vídeo Aulas")
 
@@ -28,10 +29,10 @@ st.subheader("Vídeos")
 
 def exibir_videos(videos):
     num_videos = len(videos)
-    cols = st.columns(3)  # Dividindo a interface em 3 colunas
+    cols = st.columns(2)  # Dividindo a interface em 3 colunas
 
     for i, video in enumerate(videos):
-        col = cols[i % 3]  # Alterna entre as 3 colunas
+        col = cols[i % 2]  # Alterna entre as 3 colunas
         with col:
             if st.button(video["titulo"], key=f"btn_{i}"):
                 st.session_state["video_selecionado"] = video
