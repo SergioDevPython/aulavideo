@@ -5,7 +5,21 @@ import streamlit.components.v1 as components
 st.set_page_config(page_title="Vídeo Aulas", page_icon=":clapper:", layout="wide")
 components.iframe("https://www.youtube.com/embed/liC49Dol6OY?si=2VsirqJsLrPdGi87&amp;controls=0" , width=700, height=400)
 # Mensagem inicial
-st.warning("Por favor, procure o instrumento que você está aprendendo.")
+
+
+st.title("🎶 Bem-vindo ao Curso de Música – Fanfara! 🎺🥁")  
+
+st.write(  
+    """É com grande alegria que recebemos você nesta jornada musical!  
+    Aqui, você terá a oportunidade de aprender, evoluir e fazer parte de um grupo que valoriza a disciplina,  
+    a harmonia e o trabalho em equipe.  
+
+    Prepare-se para explorar novos sons, aprimorar suas habilidades e viver momentos inesquecíveis.  
+    Que a música seja nossa conexão e inspiração! 🎼  
+
+    **Bem-vindo à família da Fanfara!** 🎵"""  
+)  
+
 
  
 # Título da aplicação
