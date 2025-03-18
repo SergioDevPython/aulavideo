@@ -69,3 +69,21 @@ else:
 
 
 
+st.title("📞 Contatos")  
+
+st.write("Entre em contato conosco para mais informações sobre o curso de música :")  
+
+st.markdown("""  
+📧 **E-mail:** analista.sergiosantos@gmail.com  
+📱 **WhatsApp:** +55 77 99921-1063  
+📍 **Endereço:**   
+🌐 **Site:** [www.fanfara.com.br](https://www.linkedin.com/in/sergio-santos-20391332a/)  
+""")  
+
+st.write("Nos siga nas redes sociais para ficar por dentro das novidades!")  
+
+st.markdown("""  
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/fanfara)  
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/fanfara)  
+""")  
+
