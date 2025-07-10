@@ -7,31 +7,30 @@ components.iframe("https://www.youtube.com/embed/liC49Dol6OY?si=2VsirqJsLrPdGi87
 # Mensagem inicial
 
 
-st.title("🎶 Bem-vindo ao Curso de Música – Fanfara! 🎺🥁")  
+st.title("🎶 Bem-vindo ao Curso de  – Flauta Doce! 🎺🥁")  
 
 st.write(  
     """É com grande alegria que recebemos você nesta jornada musical!  
     Aqui, você terá a oportunidade de aprender, evoluir e fazer parte de um grupo que valoriza a disciplina,  
     a harmonia e o trabalho em equipe.  
 
-    Prepare-se para explorar novos sons, aprimorar suas habilidades e viver momentos inesquecíveis.  
-    Que a música seja nossa conexão e inspiração! 🎼  
 
-    **Bem-vindo à família da Fanfara!** 🎵"""  
+
+    **Bem-vindo à família da Rainha da Paz!** 🎵"""  
 )  
 
 
- 
+
 # Título da aplicação
 st.title("Vídeo Aulas")
 
 # Dados das videoaulas
 videos = [
-    {"titulo": "CAIXA - Série Rítmica I para Iniciantes", "link": "https://www.youtube.com/watch?v=DkxnqK6gsVU", "descricao": "Como rufar caixa."},
-    {"titulo": "CAIXA - Série Rítmica II para Iniciantes", "link": "https://www.youtube.com/watch?v=gs9bhlS_vF8", "descricao": "Exercícios de iniciação ao ritmo na caixa."},
-    {"titulo": "GRUPO - Percussão, Prática em grupo ritmo: SENTA LEVANTA", "link": "https://www.youtube.com/watch?v=R97KiN0kJ94", "descricao": "Prática em grupo: SURDO, CAIXA E PRATOS."},
-    {"titulo": "BUMBO - Percussão BUMBO", "link": "https://www.youtube.com/watch?v=I39EG_oRNiQ", "descricao": "Exercícios para BUMBO."},
-    {"titulo": "PRATOS - Série Rítmica", "link": "https://www.youtube.com/watch?v=07tN0ghJZAU", "descricao": "Introdução à prática com pratos."},
+    {"titulo": "Primeiros Passos", "link": "https://www.youtube.com/watch?v=KKk5vUA_NFg&t=716s", "descricao": ""},
+    {"titulo": "Era uma vez uma Joaninha", "link": "https://www.youtube.com/watch?v=KPLienSo4_8&list=RDKPLienSo4_8&start_radio=1", "descricao": "Música infantil: Era uma vez uma Joaninha."},
+    {"titulo": "Músicas fáceis", "link": "https://www.youtube.com/watch?v=KPLienSo4_8&list=RDKPLienSo4_8&start_radio=1", "descricao": "Musica fáceis para flauta doce."},
+    {"titulo": "Borboletinha", "link": "https://www.youtube.com/watch?v=5jnBIx3H8EY&list=RD5jnBIx3H8EY&start_radio=1", "descricao": "Música borboletinha."},
+    {"titulo": "Embocadura", "link": "https://www.youtube.com/watch?v=65OBxj0uzXE", "descricao": "Técnica de sopro na flauta doce"},
     {"titulo": "TROMPETE - Aula I", "link": "https://www.youtube.com/watch?v=VjqgWwVNFUs", "descricao": "Aprenda os conceitos básicos sobre o trompete."},
     {"titulo": "TROMPETE - Tocando DO, RÉ, MI, FA, SOL", "link": "https://www.youtube.com/watch?v=AD-weQlmMkE", "descricao": "Tocando as notas Dó-Ré-Mi-Fá-Sol no Trompete Bb."},
     {"titulo": "EMBOCADURA - trompete, tuba, trombone, bombardino", "link": "https://www.youtube.com/watch?v=GJVBdwKrFOQ", "descricao": "Como fazer EMBOCADURA PERFEITA | trompete, tuba, trombone, bombardino."},
@@ -71,7 +70,7 @@ else:
 
 st.title("📞 Contatos")  
 
-st.write("Entre em contato conosco para mais informações sobre o curso de música :")  
+st.write(" Para mais informações :")  
 
 st.markdown("""  
 📧 **E-mail:** analista.sergiosantos@gmail.com  
@@ -83,7 +82,6 @@ st.markdown("""
 st.write("Nos siga nas redes sociais para ficar por dentro das novidades!")  
 
 st.markdown("""  
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/fanfara)  
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/sergiosantos230)  
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=facebook&logoColor=white)](https://facebook.com/fanfara)  
 """)  
-
